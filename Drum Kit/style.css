@@ -1,0 +1,33 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpg);
+    background-size:cover;
+}
+
+h1{
+    margin-bottom: 1px;
+    color:white;
+    font-size:30px;
+}
+label{
+    color:coral;
+}
+.key{
+    width:80px;
+    height: 80px;
+    text-align: center;
+    border:4px solid gold;
+    border-radius: 4px;
+    transition-delay:0.07s;
+    background:rgba(0,0,0,0.5);
+
+}
+
+.playing{
+    transform: scale(1.1);
+}

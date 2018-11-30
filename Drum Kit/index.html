@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<main>
+    <div id="sound-box">
+        <button data-key="65" class="key">
+            <h1>A</h1>
+            <label>ClHat</label>
+        </button>
+        <button data-key="83" class="key">
+            <h1>S</h1>
+            <label>Flam</label>
+        </button>
+        <button data-key="68" class="key">
+            <h1>D</h1>
+            <label>Kick</label>
+        </button>
+        <button data-key="70" class="key">
+            <h1>F</h1>
+            <label>OpHat</label>
+        </button>
+        <button data-key="71" class="key">
+            <h1>G</h1>
+            <label>PdHat</label>
+        </button>
+        <button data-key="72" class="key">
+            <h1>H</h1>
+            <label>Rim</label>
+        </button>
+        <button data-key="74" class="key">
+            <h1>J</h1>
+            <label>SdSt</label>
+        </button>
+        <button data-key="75" class="key">
+            <h1>K</h1>
+            <label>Snr</label>
+        </button>
+        <button data-key="76" class="key">
+            <h1>L</h1>
+            <label>SnrOff</label>
+        </button>
+    </div>
+    <div id="sounds">
+        <audio data-key="65" src="Sounds/ClHat.wav"></audio>
+        <audio data-key="83" src="Sounds/Flam.wav"></audio>
+        <audio data-key="68" src="Sounds/Kick.wav"></audio>
+        <audio data-key="70" src="Sounds/OpHat.wav"></audio>
+        <audio data-key="71" src="Sounds/PdHat.wav"></audio>
+        <audio data-key="72" src="Sounds/Rim.wav"></audio>
+        <audio data-key="74" src="Sounds/SdSt.wav"></audio>
+        <audio data-key="75" src="Sounds/Snr.wav"></audio>
+        <audio data-key="76" src="Sounds/SnrOff.wav"></audio>
+    </div>
+</main>
+</body>
+</html>
