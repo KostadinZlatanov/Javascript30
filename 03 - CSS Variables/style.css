@@ -1,0 +1,28 @@
+:root{
+    --base:red;
+    --margin:50px;
+    --blur:5px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:cadetblue;
+    height: 100vh;
+}
+
+#img-background{
+    background-color:var(--base);
+    margin-top:var(--margin);
+    width:600px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    filter: blur(var(--blur));
+}
